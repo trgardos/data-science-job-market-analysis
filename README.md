@@ -1,6 +1,6 @@
 # Data Science Job‑Market Analysis Project
 
-This repository hosts a collaborative project to analyze the data‑science job market in the United States.  Our goals are to understand which data‑science roles are in demand, how they are defined, and what skills employers look for.  The project is organized and maintained by volunteer students in the Master’s program with guidance from instructors and teaching assistants.
+This repository hosts a collaborative project to analyze the data‑science job market in the United States.  Our goals are to understand which data‑science roles are in demand, how they are defined, and what skills employers look for.  The project is organized and maintained by volunteer students in the BU Master’s in Data Science program with guidance from instructors.
 
 ## Goals
 
