@@ -1,0 +1,40 @@
+name: Research Question
+description: Propose a research or analysis question to investigate in the dataset.
+labels: ["research"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template when you want to explore a new hypothesis or analysis that isn’t yet defined.
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: Short title describing the research question
+      placeholder: e.g., How has demand for data engineers changed over the last 5 years?
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Research question
+      description: State the question you want to answer and explain why it’s interesting.
+      placeholder: What do you want to find out?
+    validations:
+      required: true
+  - type: textarea
+    id: background
+    attributes:
+      label: Background / context
+      description: Provide any relevant background, assumptions, or context for this research.
+      placeholder: Explain the relevance and any prior work.
+    validations:
+      required: false
+  - type: textarea
+    id: data_sources
+    attributes:
+      label: Potential data sources
+      description: Suggest data sources that could be used to answer the question (e.g., data sets within this repo or external sources).
+      placeholder: e.g., LinkedIn jobs dataset, BLS O*NET data
+    validations:
+      required: false
