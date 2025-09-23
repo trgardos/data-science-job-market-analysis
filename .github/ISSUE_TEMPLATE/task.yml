@@ -1,0 +1,43 @@
+name: Task
+description: Use this template to propose a new task (data collection, cleaning, analysis, documentation, etc.)
+labels: ["task"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please provide a clear and concise description of the task.  Include what needs to be done and why it is important.
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: Short descriptive title of the task
+      placeholder: e.g., Extract skills for data‑scientist roles
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the task in detail, including the goal and any context.
+      placeholder: Provide background and what the expected outcome should look like.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria / deliverables
+      description: List the outcomes or deliverables that must be met for the task to be considered complete.  Use checkboxes to define steps.
+      placeholder: |
+        - [ ] A script in src/ that downloads data
+        - [ ] Cleaned dataset saved to data/processed
+        - [ ] Notebook demonstrating results
+    validations:
+      required: true
+  - type: input
+    id: dependencies
+    attributes:
+      label: Related issues / dependencies
+      description: List any issues this task depends on (if any) by referencing their numbers.
+      placeholder: e.g., Depends on #42
+    validations:
+      required: false
