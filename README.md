@@ -12,7 +12,9 @@ This repository hosts a collaborative project to analyze the data‑science job 
 
 ## Repository structure
 
-The project follows a standardized structure inspired by the [cookiecutter‑data‑science template](https://github.com/drivendataorg/cookiecutter-data-science):
+The project directory structure is shown below.
+
+Expanded structure may be inspired by the [cookiecutter‑data‑science template](https://github.com/drivendataorg/cookiecutter-data-science).
 
 ```
 .
