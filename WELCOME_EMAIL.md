@@ -23,5 +23,4 @@ Looking forward to working with you all!
 
 Best regards,
 
-[Your Name]
-[Your Title/Role]
+Tom Gardos
