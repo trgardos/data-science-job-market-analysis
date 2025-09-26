@@ -2,11 +2,13 @@
 
 Thank you for your interest in contributing!  This project relies on the collective effort of volunteers to analyze the data‑science job market.  We strive to create an inclusive and supportive environment for everyone.  The following guidelines will help you get started.
 
-## Code of conduct
+You have (at least) three ways to contribute to this effort:
 
-All participants are expected to follow the [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md).  Please be respectful, welcoming and supportive of others.  If you encounter unacceptable behavior, refer to the reporting instructions in the code of conduct.
+1. Read and contribute to our [Discussions](https://github.com/trgardos/data-science-job-market-analysis/discussions). There we can hash out early ideas and coordinate and collaborate our efforts.
+2. Take a look at our [Issues](https://github.com/trgardos/data-science-job-market-analysis/issues) list. See if there is an issue you think you can contribute to. Have an idea for an enhancement or change? Feel free to contribute a new issue. Try to use the Issue template that best matches what you have in mind.
+3. And finally, contribute to the codebase itself by forking and cloning the repo as described below.
 
-## Getting started
+## Contributing to Development
 
 1. **Fork and clone** this repository.  You can work on your fork and submit pull requests against the main repository.
 2. **Install the dependencies** listed in `requirements.txt` within a virtual environment.
@@ -14,13 +16,13 @@ All participants are expected to follow the [Contributor Covenant Code of Conduc
 
 ## Choosing an issue
 
-- Visit the [GitHub project board](../../projects) or the issues tab to find open tasks.  Look for issues labeled `good-first-issue` if you’re new.
+- Visit [issues](https://github.com/trgardos/data-science-job-market-analysis/issues) tab to find open tasks.  Look for issues labeled `good-first-issue` if you’re new.
 - If you have an idea or question that doesn’t fit an existing issue, open a new issue using the appropriate template (task, research question or bug).  Provide a descriptive title and fill out all requested sections.
 - Self‑assign the issue if you intend to work on it.  Each issue should have one or two assignees and a mentor for guidance.
 
 ## Branching and workflow
 
-- **Create a feature branch** off the `main` branch:
+- **Create a feature branch** off the `main` branch of your forked/cloned repo:
   ```bash
   git checkout -b feature/issue-123-description
   ```
@@ -56,4 +58,4 @@ All participants are expected to follow the [Contributor Covenant Code of Conduc
 
 ## Questions and support
 
-If you’re unsure about anything, open a discussion in your issue, ask in the Slack/Discord channel or mention your mentor.  We’re here to help and want to make contributing a positive experience.
+If you’re unsure about anything, open a discussion about your issue.  We’re here to help and want to make contributing a positive experience.
