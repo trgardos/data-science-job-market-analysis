@@ -4,11 +4,16 @@ This repository hosts a collaborative project to analyze the data‑science job 
 
 ## Goals
 
-1. **Data collection** – gather public job‑posting data from sources such as LinkedIn, Indeed, Glassdoor and the U.S. Bureau of Labor Statistics.  Store raw data in the `data/raw` folder.
-2. **Role taxonomy** – define common data‑science roles (e.g. data analyst, data scientist, machine‑learning engineer).  Document official definitions and typical responsibilities.
-3. **Skill extraction** – identify and count the technical and non‑technical skills required for each role using natural‑language processing and manual annotation.
-4. **Analysis & visualization** – analyze demand over time, geography and industry; visualize skill frequency and job distribution; publish notebooks and figures in `notebooks/` and `reports/`.
-5. **Reporting** – summarize findings in a final report and prepare presentations for the class.
+1. **Data collection** – gather public job‑posting data from sources such as LinkedIn, Indeed, Glassdoor and the U.S. Bureau of Labor Statistics.  Store raw data in the `data/raw` folder. Data we are looking for is related:
+    1. Job Market Data
+    1. Job listings
+    2. Role titles and definitions
+    3. Role/job skills
+2. **Job listing analysis**
+3. **Role taxonomy** – define common data‑science roles (e.g. data analyst, data scientist, machine‑learning engineer).  Document official definitions and typical responsibilities.
+4. **Skill extraction** – identify and count the technical and non‑technical skills required for each role using natural‑language processing and manual annotation.
+5. **Analysis & visualization** – analyze demand over time, geography and industry; visualize skill frequency and job distribution; publish notebooks and figures in `notebooks/` and `reports/`.
+6. **Reporting** – summarize findings in a final report and prepare presentations for the class.
 
 ## Repository structure
 
